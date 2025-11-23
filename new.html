@@ -1,0 +1,78 @@
+<!doctypeHTML>
+<html>
+  <head>
+  <title>NaN's Tab</title>
+    <style>
+    @keyframes sway {
+    	0%{background-position: 0px 0px;background-size: 100%}
+    	10%{background-position: -50px -50px;background-size: 110%}
+    	20%{background-position: -40px 40px;background-size: 120%}
+    	30%{background-position: 50px 0px;background-size: 100%}
+    	40%{background-position: -30px 40px;background-size: 110%}
+    	50%{background-position: 20px -50px;background-size: 100%}
+    	60%{background-position: 50px 20px;background-size: 105%}
+    	70%{background-position: -40px -20px;background-size: 100%}
+    	80%{background-position: 50px 20px;background-size: 110%}
+    	90%{background-position: -40px -30px;background-size: 120%}
+    	100%{background-position: 0px 0px;background-size: 100%}
+      }
+	  
+	@keyframes press {
+    	0%{color:#aaa}
+    	50%{color:#000}
+    	100%{color:#aaa}
+      }
+      body{transition:10s;animation: sway 30s ease infinite;animation-fill-mode:both;background:url("imgs/back.jpg");background-size: 100%;overflow:hidden;cursor:url("imgs/cursor1.png"),auto;background-position: 0px;background-repeat: no-repeat;background-color: black}
+      html{box-shadow:inset 0 0 2em 2em #000000cc;height:100%}
+      .hid{position:relative;width:400px;height:100px;left:-300px;background:#0000002b;margin:0 0 10px 0;transition: .4s;border:1px solid #ffffff2b;box-shadow: black 0 0 1em;cursor:url("imgs/cursor3.png"),auto}
+      .hid:hover{left:-20px}
+      .hid2{position:relative;width:400px;height:100px;right:-300px;background:#0000002b;margin:0 0 10px 0;transition: .4s;border:1px solid #ffffff2b;box-shadow: black 0 0 1em;cursor:url("imgs/cursor3.png"),auto}
+      .hid2:hover{right:-20px}
+	  
+	  #overa{animation: press 1s ease infinite;height:100%;width:100%;background:#000;overflow:hidden;position:absolute;left:0;top:0;color:#aaa;z-index:99999;font-size:64px;user-select: none;text-align:center;border-top:black solid 7em}
+
+      #link1{background:url(imgs/1.png)}
+      #link1-1{background:url(imgs/1-1.png)}
+      #link2{background:url(imgs/2.png)}
+      #link2-1{background:url(imgs/2-1.png)}
+      #link3{background:url(imgs/3.png)}
+      #link3-1{background:url(imgs/3-1.png)}
+      #link4{background:url(imgs/4.png)}
+      #link4-1{background:url(imgs/4-1.png)}
+	  #link5{background:url(imgs/5.png)}
+	  #link5-1{background:url(imgs/5-1.png)}
+      
+
+      @keyframes fade {
+          0%{opacity: 1}
+          99.9%{opacity: 0;width:5000px;height:5000px}
+          100% {opacity: 0;width:0;height:0}
+      }
+
+      .fade{width:5000px;height:5000px;background:black;animation: fade 1s forwards;z-index:99999;position:absolute;left:0;top:0}
+    </style>
+    <link rel="stylesheet" type="text/css" href="rain.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+  <div id="overa">CLICK ME!</div>
+  <div style="min-height:100%;width:100%;overflow:hidden;position:absolute;">
+  <i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i>
+  </div>
+    <div style="display:inline-block;margin-top:2%">
+      <div class="hid" id="link1"></div>
+      <div class="hid" id="link2"></div>
+      <div class="hid" id="link3"></div>
+      <div class="hid" id="link4"></div>
+      <div class="hid" id="link5"></div>
+    </div>
+    <div style="display:inline;float: right;position:relative;margin-top:2%">
+      <div class="hid2" id="link1-1"></div>
+      <div class="hid2" id="link2-1"></div>
+      <div class="hid2" id="link3-1"></div>
+      <div class="hid2" id="link4-1"></div>
+      <div class="hid2" id="link5-1"></div>
+    </div>
+    <div class="fade"></div>
+  </body>
+</html>
